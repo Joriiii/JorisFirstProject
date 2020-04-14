@@ -1,0 +1,27 @@
+body{
+    width: 1350px;
+    padding: 50px;
+}
+
+
+body{
+    background-image: url("fotky/");
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 62px;
+    color:#590808;
+}
+h2, h3 {
+    font-family: 'Work Sans', sans-serif;
+    color:#A61C1C;
+    font-size: 30px;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+p {
+    font-family: 'Work Sans', sans-serif;
+}
