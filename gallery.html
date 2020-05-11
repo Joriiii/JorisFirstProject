@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <!--Zalozka-->
     <meta charset="UTF-8">
@@ -16,39 +16,115 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
     <!--CSS-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 
 
     <!-- Javascript ======================================================-->
     <!--Lightbox-->
-    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="lightbox.min.css">
     <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
 </head>
+
+
+
+
+
 <body>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Dalí</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Surealismus.html">Surealismus</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="dila.html">Dalí jako surealista</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Galerie</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
 <div class="gallery">
 
-            <a href="gallery/clock.jpg" data-lightbox="mygallery">
-                <img src="gallery-small/clock-small.jpg" alt="clock">
-            </a>
-            <a href="gallery/fish.jpg?image=252" data-lightbox="mygallery" >
-                <img src="gallery-small/fish-small.jpg" alt="fish">
-            </a>
-            <a href="gallery/animal.jpg?image=253" data-lightbox="mygallery" >
-                <img src="gallery-small/animal-small.jpg" alt="animal">
-            </a>
+    <a href="gallery/clock.jpg?image=251" data-lightbox="mygallery">
+        <img src="gallery-small/clock-small.jpg?image=251" class="img-fluid" alt="clock">
+    </a>
+    <a href="gallery/fish.jpg?image=252" data-lightbox="mygallery" >
+        <img src="gallery-small/fish-small.jpg?image=252" class="img-fluid" alt="fish">
+    </a>
+    <a href="gallery/animal.jpg?image=253" data-lightbox="mygallery" >
+        <img src="gallery-small/animal-small.jpg?image=253" class="img-fluid" alt="animal">
+    </a>
 
-            <a href="gallery/buterfly.jpg?image=254" data-lightbox="mygallery">
-                <img src="gallery-small/buterfly-small.jpg" alt="buterfly">
-            </a>
-            <a href="gallery/face.jpg?image=255" data-lightbox="mygallery" >
-                <img src="gallery-small/face-small.jpg" alt="face">
-            </a>
-            <a href="gallery/egg.jpg?image=256" data-lightbox="mygallery" >
-                <img src="gallery-small/egg-small.jpg" alt="egg">
+    <a href="gallery/buterfly.jpg?image=254" data-lightbox="mygallery">
+        <img src="gallery-small/buterfly-small.jpg?image=254" class="img-fluid" alt="buterfly">
+    </a>
+    <a href="gallery/face.jpg?image=255" data-lightbox="mygallery" >
+        <img src="gallery-small/face-small.jpg?image=255" class="img-fluid" alt="face">
+    </a>
+    <a href="gallery/egg.jpg?image=256" data-lightbox="mygallery" >
+        <img src="gallery-small/egg-small.jpg?image=256" class="img-fluid" alt="egg">
+    </a>
 </div>
 
-<div class="button">
-    <a class="btn btn-success" href="index.html" role="button">Hlavní stránka</a>
-</div>
+</body>
+
+
+<!-- Site footer -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <h6>O Webu</h6>
+                <p class="text-justify">Toto je má druhá stránka. První si můžete prohlédnout na GitHubu.
+                    Poděkovat bzch chtěla své rodině, Yablkovi, Indům na Youtube a celému týmu na StackOverflow</p>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+                <h6>Skill</h6>
+                <ul class="footer-links">
+                    <li><a href="https://github.com/joriiii">CSS3</a></li>
+                    <li><a href="https://github.com/joriiii">HTML5</a></li>
+                    <li><a href="https://github.com/joriiii">Bootstrap</a></li>
+                    <li><a href="https://github.com/joriiii">JavaScript</a></li>
+                    <li><a href="https://github.com/joriiii">Git</a></li>
+                </ul>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+                <h6>Životní vzory</h6>
+                <ul class="footer-links">
+                    <li><a href="https://www.youtube.com/user/Yablko">Yablko</a></li>
+                    <li><a href="http://webrebel.cz/">Webrebel</a></li>
+                    <li><a href="https://www.learn2code.cz/kurzy">Yablko++</a></li>
+                    <li><a href="https://www.youtube.com/">Indové na Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <p class="copyright-text"> Copyright &copy; 2017 All Rights Reserved by <br>
+                    <a href="#">Jordána Prusali</a>.
+                </p>
+            </div>
+</footer>
 </body>
 </html>
